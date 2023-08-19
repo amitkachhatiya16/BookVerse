@@ -1,0 +1,78 @@
+
+@font-face {
+  font-family: "chivo";
+  src: url(../Fonts/Chivo-VariableFont_wght.ttf)
+}
+
+#main-container{
+  backdrop-filter: blur(5px);
+  text-align: center;
+  border-radius: 20px;
+  font-family: chivo;
+}
+
+#containt-container {
+  backdrop-filter: blur(5px);
+  text-align: center;
+  border-radius: 20px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  font-family: chivo;
+}
+
+#card-container {    
+  margin: 20px;
+  flex: 50%;
+  padding: 0 4px;
+  font-family: chivo;
+
+}
+
+#card {
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  transition: 0.3s;
+  width: 18vw;
+  vertical-align: middle;
+  height: 52vh;
+  border-radius: 20px;
+  justify-content: space-between;
+  background-color: #E8E4E1;
+  font-family: chivo;
+  
+}
+
+#card-image{
+  width: 13vw;
+  height: 25vh;
+  font-family: chivo;
+}
+
+#card:hover {
+  box-shadow: 0 50px 50px 0 rgba(0, 0, 0, 0.2);
+}
+
+#card-block {
+  text-align: left;
+  height: 17vh;
+
+}
+
+#top-container{
+  display: flex;
+  align-items: center;
+}
+#center-container{
+  flex: 1;
+  text-align: center;
+}
+
+#cartbtn{
+  border:1px solid ;
+  border-radius: 10px !important;
+  background-color: #735a5a;
+  color: #ffff;
+  font-family: chivo;
+}

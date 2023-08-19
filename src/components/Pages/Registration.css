@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "chivo";
+    src: url(../Fonts/Chivo-VariableFont_wght.ttf)
+}
+
+.form-demo Typography{
+    font-family: chivo;
+}
+#block{
+    margin:50px ;
+    font-family: chivo;
+}
+#reg{
+    backdrop-filter: blur(10px);
+    color: #8d6e63;
+    max-width: 600px;
+    width: 100%;
+    padding: 80px;
+    margin: auto;
+    margin-top: 75px ;   
+    margin-bottom: 75px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    font-family: chivo;
+    text-align:center;
+}
+#font-main{
+    font-family: chivo;
+}

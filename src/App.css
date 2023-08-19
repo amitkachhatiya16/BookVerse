@@ -1,0 +1,25 @@
+
+@font-face {
+  font-family: "chivo";
+  src: url(../src/components/Fonts/Chivo-VariableFont_wght.ttf)
+}
+
+#as{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+#as div{
+  margin: 10px;
+  text-decoration: none;
+}
+
+#mainfont{
+  font-family: chivo;
+}
+
+body{
+  background-image: url("../src/components/images/bookback.jpg");
+  background-size:contain;
+} 

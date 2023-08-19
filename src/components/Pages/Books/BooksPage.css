@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "chivo";
+    src: url(../../Fonts/Chivo-VariableFont_wght.ttf)
+}
+
+#main-container{
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    margin:20px;
+    text-align: center;
+    font-family: chivo;
+}
+#books-table{
+    margin: 100px;
+    margin-top: 20px;
+    font-size: larger;
+    font-family: chivo;
+}
+#books-table TableHead{
+    font-size: large;
+    font-family: chivo;
+}
